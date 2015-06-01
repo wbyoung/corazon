@@ -1,0 +1,45 @@
+{
+  "name": "corazon",
+  "version": "0.0.0",
+  "description": "Elegant JS class system",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/.bin/_mocha --report html --",
+    "test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly --"
+  },
+  "files": [
+    "index.js",
+    "class.js",
+    "mixin.js",
+    "property.js",
+    "lib",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbyoung/corazon"
+  },
+  "keywords": [
+    "class",
+    "object",
+    "mixin",
+    "property",
+    "extend"
+  ],
+  "author": "Whitney Young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbyoung/corazon/issues"
+  },
+  "homepage": "https://github.com/wbyoung/corazon",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "istanbul": "^0.3.14",
+    "mocha": "^2.2.5",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  },
+  "dependencies": {
+    "lodash": "^3.9.3"
+  }
+}
