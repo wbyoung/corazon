@@ -13,6 +13,7 @@ describe('corazon', function() {
   });
 
   it('exports property', function() { expect(require('..').Property).to.exist; });
+  it('exports property fn', function() { expect(require('..').property).to.exist; });
   it('exports property fn via subpath', function() {
     expect(require('../property')).to.equal(require('..').Property.fn);
   });
