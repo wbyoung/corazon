@@ -2,9 +2,6 @@
 
 var chai = require('chai');
 var expect = chai.expect;
-var sinon = require('sinon'); chai.use(require('sinon-chai'));
-var Class = require('../class');
-var property = require('../property');
 
 describe('corazon', function() {
   it('exports class', function() { expect(require('..').Class).to.exist; });
