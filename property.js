@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./lib').Property.fn;
+module.exports = require('./lib').property;
